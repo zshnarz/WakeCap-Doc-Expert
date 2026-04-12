@@ -1,0 +1,45 @@
+WC-PS-PC-v1.0 — IMAGE PROMPTS FOR AI IMAGE GENERATION
+======================================================
+
+These descriptions are ready to copy-paste into AI image generators
+(Midjourney, DALL-E, Stable Diffusion, etc.)
+
+------------------------------------------------------
+IMAGE 1: WP-30 Complete System
+------------------------------------------------------
+
+Reference: [IMAGE: WP-30 complete system]
+
+Prompt:
+A compact, industrial-grade solar power unit mounted on a vertical steel pole. The unit consists of a small rectangular main controller box (approximately 15cm wide) with a cylindrical battery arm extending horizontally from one side. Two small solar panels (each approximately 39cm x 53cm) are attached in a butterfly/V-configuration above the main box, angled at approximately 25 degrees from horizontal facing south. The main box is dark gray/charcoal colored with a matte powder-coat finish. Three small LED indicators (blue, green, red) are visible on the front face of the controller box. A single black DC output cable hangs from the bottom. The pole mount clamp is metallic silver. The unit is photographed from a slight low angle (about 15 degrees below eye level) against a clear blue desert sky with bright sunlight. The background is a barren, sandy desert landscape typical of Saudi Arabia. Style: Professional product photography, clean and sharp, high contrast, industrial equipment catalog aesthetic. Aspect ratio: 3:4 portrait orientation. Lighting: Natural bright daylight with soft shadows.
+
+------------------------------------------------------
+IMAGE 2: WP-60 Complete System
+------------------------------------------------------
+
+Reference: [IMAGE: WP-60 complete system]
+
+Prompt:
+A modular pole-mounted solar power system attached to a galvanized steel pole. The system consists of: (1) a rectangular battery enclosure box (approximately 30cm x 20cm x 15cm) in dark gray, (2) a separate small MPPT charge controller box mounted above it, (3) two solar panels (each approximately 39cm x 51cm) mounted on an integrated galvanized and powder-coated bracket with adjustable tilt mechanism set to approximately 25 degrees. The panels are dark blue/black monocrystalline with visible cell grid pattern. Aviation-style circular waterproof connectors (silver metallic) are visible connecting the panels to the controller. A black DC output cable with a 5.5x2.1mm barrel connector hangs from the battery box. The mounting bracket is robust, showing galvanized steel construction with powder-coat finish. Photographed from a three-quarter front angle at eye level. Background: a remote industrial site with sparse vegetation and clear sky. Style: Professional technical product photography, catalog-quality, sharp detail on connectors and mounting hardware. Aspect ratio: 3:4 portrait orientation. Lighting: Bright overcast for even illumination without harsh shadows.
+
+------------------------------------------------------
+IMAGE 3: WP-400T Trailer Power Station
+------------------------------------------------------
+
+Reference: [IMAGE: WP-400T trailer-mounted power station]
+
+Prompt:
+A mobile solar trailer power station on a single-axle trailer chassis. The trailer has: (1) three large solar panels (each approximately 1m x 0.7m) deployed at a tilted angle facing south on a metal frame at the rear, (2) a 6.5-meter pneumatic telescoping mast made of aluminum alloy, fully extended upward from the center of the trailer with a small equipment cabinet/CCTV box at the top, (3) a sealed equipment cabinet (approximately 60cm x 40cm x 50cm) on the trailer bed housing batteries and electronics, (4) four manual outrigger stabilizer jacks deployed at the corners for stability, (5) a ball hitch coupling at the front. The trailer has 165/70R13 tires on a single axle. The entire chassis and frame has an anti-oxidation electrostatic powder coat finish in industrial white/light gray. The equipment cabinet at the mast top has a dark weather-resistant enclosure. Overall dimensions approximately 2m long x 1.4m wide when packed. Photographed from a wide three-quarter front angle to show the full system deployed. Background: flat desert terrain with compacted sandy ground, typical Saudi Arabian remote site. Style: Professional industrial equipment photography, showing the full scale of the system with a sense of ruggedness and reliability. Include a subtle scale reference (a person or vehicle in the distant background). Aspect ratio: 16:9 landscape orientation. Lighting: Golden hour desert lighting with warm tones.
+
+------------------------------------------------------
+IMAGE 4: WP-900T Heavy-Duty Trailer Power Station
+------------------------------------------------------
+
+Reference: [IMAGE: WP-900T heavy-duty trailer power station]
+
+Prompt:
+A large, heavy-duty mobile solar trailer power station on a reinforced single-axle trailer with mechanical brake system. The trailer features: (1) three very large solar panels (each approximately 2m x 1m, 435W each) deployed in a wide tilted array on a sturdy metal frame, (2) a 9-meter manual telescoping mast tower made of steel, fully extended upward with a weatherproof camera box (412mm x 412mm x 416mm) mounted at the top containing surveillance equipment, (3) a large equipment cabinet on the trailer bed with visible multiple cable passage ports on the sides, (4) six 12V 150Ah batteries visible through a partially open battery compartment cover, (5) steel plate spring suspension system visible between the frame and 15-inch wheels, (6) a 50mm ball hitch at the front. The trailer dimensions are approximately 2.3m x 1.5m. The chassis has a powder-coated finish for corrosion prevention. CAT6 cables and power cables are routed through the mast. The overall system appears massive and industrial-grade, clearly heavier than the WP-400T. Photographed from a wide three-quarter angle at a construction site with cranes or industrial equipment barely visible in the far background to convey the heavy-duty industrial context. Style: Professional industrial photography, dramatic and imposing, emphasizing the scale and robustness of the system. Aspect ratio: 16:9 landscape orientation. Lighting: Midday bright sun with strong shadows to emphasize the 3D structure and mast height.
+
+======================================================
+END OF IMAGE PROMPTS
+======================================================

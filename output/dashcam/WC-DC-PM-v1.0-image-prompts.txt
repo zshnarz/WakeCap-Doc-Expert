@@ -1,0 +1,134 @@
+WC-DC-PM-v1.0 — IMAGE PROMPTS FOR AI GENERATION
+=================================================
+
+Each entry below corresponds to an [IMAGE: ...] placeholder in the Product Manual.
+Copy-paste these descriptions directly into an AI image generator (Midjourney, DALL-E, Stable Diffusion).
+
+
+IMAGE 1: Product Hero — Hikvision G40 DashCam Unit
+---------------------------------------------------
+
+Reference: Section 1.4 — Product Identification
+
+Prompt:
+Professional product photography of a compact black industrial dashcam (Hikvision G40, model AE-DI2032-G40). Front isometric view at a 30-degree angle showing:
+- Front face: a circular wide-angle camera lens (road-facing, 2.1mm focal length) centered on the unit
+- Rear face (partially visible): a smaller infrared camera lens for driver monitoring
+- Top surface: two small LED indicator lights (one green for recording, one blue for connectivity)
+- Left side: a microSD card slot with push-eject mechanism, a SIM card tray slot
+- Right side: a power cable connector port
+- Bottom: a windshield mounting bracket with adhesive pad, adjustable tilt mechanism
+- Dimensions approximately 123mm x 85mm x 38.9mm — a compact rectangular unit with rounded edges
+Background: clean white studio background with subtle shadow underneath
+Style: high-end commercial product photography, sharp focus, soft studio lighting, no reflections, 8K resolution
+Aspect ratio: 16:9 landscape
+Numbered callout labels (1-9) pointing to each component with thin leader lines
+
+
+IMAGE 2: System Architecture Block Diagram
+-------------------------------------------
+
+Reference: Section 2.1 — System Overview
+
+Prompt:
+Technical system architecture diagram showing the WakeCap DashCam ecosystem data flow. Layout left-to-right:
+
+LEFT ZONE — "Vehicle" (contained in a rounded rectangle):
+- DashCam G40 icon (compact black box with camera lens graphic) with sub-labels: "Road Camera", "Driver Camera", "GPS", "G-Sensor", "4G Modem"
+- Below it: "AVL Tracker" icon (small GPS device) connected with a dotted line labeled "Integration"
+- Connected to vehicle fuse box icon
+
+CENTER ZONE — "Network" (cloud shape):
+- "4G LTE" label inside with cellular tower icon
+- Bidirectional arrows from DashCam to cloud
+
+RIGHT ZONE — "Management" (three stacked boxes):
+- Box 1 (top): "HikCentral Professional Server" with server rack icon, database cylinder, label "ISUP 5.0 Port 7660"
+- Box 2 (middle): "WakeCap Observation Manager" with dashboard icon, label "Phase 2 Integration"
+- Box 3 (bottom): "HAT-Dashcam Mobile App" with smartphone icon
+- Dotted arrow from Box 1 to Box 2 labeled "Alert Routing"
+
+Color scheme: WakeCap blue (#0063A3) for primary system components, light gray (#F5F5F5) for network cloud, orange (#FB923C) for alert flow arrows, charcoal (#333333) for text labels
+Style: clean technical illustration, flat design, vector-quality line work, professional engineering diagram
+Background: white
+Aspect ratio: 16:9 landscape
+Font: sans-serif (Source Sans Pro style)
+
+
+IMAGE 3: Component Detail — Annotated Views
+--------------------------------------------
+
+Reference: Section 4.1 — Main Unit (Hikvision G40)
+
+Prompt:
+Technical line drawing of the Hikvision G40 DashCam showing three orthographic views arranged on a single sheet:
+
+TOP VIEW (upper left):
+- Rectangular outline 123mm x 85mm
+- Front camera lens circle centered on the short edge
+- Two LED indicators marked on the top surface
+- Dimension arrows showing width (123mm) and depth (85mm)
+
+SIDE VIEW (upper right):
+- Profile showing 38.9mm height
+- Mounting bracket visible on bottom
+- Power connector on right side
+- Dimension arrow showing height (38.9mm)
+
+REAR VIEW (bottom center):
+- Driver-facing IR camera lens (smaller, centered)
+- Microphone grille
+- Speaker grille
+- Model label area
+
+All views with:
+- Numbered callout labels matching the interfaces table (microSD slot, SIM tray, power input, reset pinhole, CAN bus connector, alarm input, RS-232 port)
+- Thin leader lines in charcoal gray
+- Component labels in sans-serif font
+- Dimension arrows with millimeter measurements
+
+Style: technical engineering line drawing, black line work on white background, precise geometric shapes, no perspective distortion, ISO standard engineering drawing conventions
+Background: white with thin border frame
+Aspect ratio: 4:3
+
+
+IMAGE 4: HikCentral Professional Dashboard Mockup
+--------------------------------------------------
+
+Reference: Section 6.1 — HikCentral Professional
+
+Prompt:
+UI screenshot mockup of the HikCentral Professional fleet management dashboard displaying dashcam monitoring. Dark theme interface:
+
+LEFT PANEL (narrow sidebar, ~20% width):
+- WakeCap logo at top
+- "Fleet Vehicles" header
+- List of 8 vehicles with status icons: green circles for "Online" (5 vehicles), gray circles for "Offline" (3 vehicles)
+- Vehicle names like "TRUCK-042", "BUS-017", "PICKUP-089"
+- Search bar at top of list
+
+CENTER PANEL (main area, ~55% width):
+- Large live video feed from "TRUCK-042" road-facing camera
+- Timestamp overlay: "2026-04-12 14:32:17"
+- Speed overlay: "47 km/h"
+- GPS coordinates overlay at bottom of video
+- Camera toggle buttons: "Road" (active, highlighted blue) / "Driver" (inactive)
+
+RIGHT PANEL (~25% width):
+- "Recent Alerts" header
+- 5 alert cards stacked vertically:
+  1. Red icon — "Forward Collision Warning — TRUCK-042" — 14:31
+  2. Orange icon — "Fatigue Detection — BUS-017" — 14:28
+  3. Yellow icon — "Phone Use — PICKUP-089" — 14:15
+  4. Yellow icon — "Seatbelt Violation — TRUCK-042" — 14:02
+  5. Blue icon — "Lane Departure — BUS-017" — 13:55
+- Each card shows severity icon, alert type, vehicle, and time
+
+BOTTOM BAR:
+- Miniature map showing vehicle location pins on a satellite view
+- Fleet health summary: "32 Online | 8 Offline | 3 Alerts Today"
+
+Color scheme: Dark background (#1a1a2e), blue accents (#0063A3), white text, alert colors matching ANSI (red/orange/yellow/blue)
+Style: realistic software UI mockup, modern dark theme, professional fleet management interface
+Aspect ratio: 16:9 widescreen
+Resolution: 1920x1080 equivalent clarity

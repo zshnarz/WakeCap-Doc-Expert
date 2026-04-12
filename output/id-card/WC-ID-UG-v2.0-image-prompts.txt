@@ -1,0 +1,46 @@
+WC-ID-UG-v2.0 — Image Prompts for AI Generation
+=================================================
+
+IMAGE 1: Annotated Card Diagram (Quick Start)
+----------------------------------------------
+Reference: [IMAGE: Annotated front-and-side view of the WakeCap Rechargeable ID Card]
+
+Description: A clean technical illustration showing TWO VIEWS of the WakeCap Rechargeable ID Card side by side:
+
+LEFT — Front view: A white, credit-card-sized device (86 x 55 mm) shown straight-on. The surface is completely blank white with rounded corners and a smooth matte finish. Four numbered callout lines extend from the card:
+  (1) → bottom edge, pointing to a small USB port opening, label "USB Charging Port"
+  (2) → top-left area, pointing to a tiny LED window, label "LED Indicator"
+  (3) → center of card, a dashed circle outline indicating the NFC antenna zone, label "NFC Zone"
+
+RIGHT — Side/edge view: A thin profile view (6 mm thickness) of the same card, showing:
+  (4) → side edge, pointing to a small recessed button, label "Power Button"
+
+Both views sit on a light gray (#F5F5F5) background. Callout lines are thin dark gray with small filled circles at the card end. Labels use a clean sans-serif font (like Source Sans Pro). A subtle shadow beneath the card. The card surface is pristine white with no text or printing on it.
+
+Style: Clean technical product illustration, flat/isometric, vector-style rendering.
+Aspect ratio: 16:9 landscape.
+
+
+IMAGE 2: System Flow Diagram (How the System Works)
+----------------------------------------------------
+Reference: [IMAGE: Simple system flow diagram showing the data path from card to portal]
+
+Description: A horizontal four-step flow diagram on a white background:
+
+STEP 1 (far left): A simplified icon of the WakeCap ID Card — a white rounded rectangle with a small wireless signal icon (three curved arcs) emanating from it. Label below: "Your Card"
+
+STEP 2: An icon of a WakeCap Anchor — a small dark rectangular box mounted on a pole or wall bracket. Label below: "Site Anchors"
+
+STEP 3: An icon of a WakeCap Gateway — a slightly larger box with an antenna and an Ethernet/cellular symbol. Label below: "Gateway"
+
+STEP 4 (far right): An icon of a laptop or monitor showing a simple dashboard with a map pin and a list. Label below: "WakeCap Portal"
+
+Between each step, a horizontal arrow with a label above it:
+  Card → Anchors: "wireless signal"
+  Anchors → Gateway: "mesh network"
+  Gateway → Portal: "internet"
+
+The icons use WakeCap Blue (#0063A3) as the primary color with white fills. The arrows are medium gray. The overall style is minimal, professional, and easy to understand for non-technical audiences. No technical jargon, no complex diagrams.
+
+Style: Minimal infographic, icon-based flow diagram, professional corporate style.
+Aspect ratio: 3:1 wide banner (horizontal flow).

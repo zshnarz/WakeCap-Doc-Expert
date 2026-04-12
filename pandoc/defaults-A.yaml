@@ -1,0 +1,32 @@
+# WakeCap Pandoc Defaults — Version A (Marketing/Sales)
+# Usage: pandoc -d pandoc/defaults-A.yaml input.md -o output.docx
+
+# Output format
+to: docx
+
+# Reference template (defines all WakeCap styles — marketing variant)
+reference-doc: pandoc/reference-A.docx
+
+# Lua filters
+filters:
+  - pandoc/filters/wakecap.lua
+
+# Table of contents (marketing docs usually skip TOC)
+toc: false
+
+# No section numbering for marketing docs
+number-sections: false
+
+# Markdown extensions
+from: markdown+fenced_divs+bracketed_spans+yaml_metadata_block+pipe_tables+grid_tables+table_captions+inline_code_attributes+strikeout+superscript+subscript+task_lists+definition_lists+footnotes+smart
+
+# Metadata defaults
+metadata:
+  lang: en-US
+
+# Standalone document
+standalone: true
+
+# Wrap long lines
+wrap: auto
+columns: 80

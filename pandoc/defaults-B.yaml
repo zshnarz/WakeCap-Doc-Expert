@@ -1,0 +1,33 @@
+# WakeCap Pandoc Defaults — Version B (Technical/Field)
+# Usage: pandoc -d pandoc/defaults-B.yaml input.md -o output.docx
+
+# Output format
+to: docx
+
+# Reference template (defines all WakeCap styles)
+reference-doc: pandoc/reference-B.docx
+
+# Lua filters
+filters:
+  - pandoc/filters/wakecap.lua
+
+# Table of contents
+toc: true
+toc-depth: 3
+
+# Section numbering
+number-sections: true
+
+# Markdown extensions
+from: markdown+fenced_divs+bracketed_spans+yaml_metadata_block+pipe_tables+grid_tables+table_captions+inline_code_attributes+strikeout+superscript+subscript+task_lists+definition_lists+footnotes+smart
+
+# Metadata defaults
+metadata:
+  lang: en-US
+
+# Standalone document (includes headers/footers from reference)
+standalone: true
+
+# Wrap long lines
+wrap: auto
+columns: 80

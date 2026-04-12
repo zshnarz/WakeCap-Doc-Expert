@@ -1,0 +1,25 @@
+{
+  "name": "wakecap-doc-expert",
+  "version": "2.0.0",
+  "description": "WakeCap technical documentation generator — Pandoc-based pipeline with WakeCap branding.",
+  "main": "pandoc/generate.js",
+  "scripts": {
+    "generate": "node pandoc/generate.js",
+    "generate:all": "node pandoc/generate-all.js",
+    "create-ref": "node pandoc/create-reference.js",
+    "validate:kb": "node templates/kb-validator.js",
+    "validate:doc": "node templates/validator.js",
+    "xref": "node templates/xref-index.js",
+    "version": "node templates/version-manager.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.5.1",
+    "mammoth": "^1.11.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
