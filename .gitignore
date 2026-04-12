@@ -22,13 +22,28 @@ desktop.ini
 __pycache__/
 *.pyc
 
-# Generated .docx files (large binaries, regenerable from .md + generator)
-output/**/*.docx
-
 # Temporary files
 *.tmp
 *.bak
 *.pid
 
-# Generators directory (archived legacy code — large, not needed)
+# Archived legacy generators
 generators/
+
+# === Generated content (not part of the engine) ===
+
+# Product knowledge bases (user provides these per-product)
+knowledge-base/*.md
+!knowledge-base/SCHEMA.md
+
+# All generated output (docs, scripts, images, PDFs)
+output/*/
+output/manifest.json
+output/topic-index.json
+
+# Keep logo assets (used by the generator)
+!output/LOGOMARK.png
+!output/LOGOTYPE.png
+
+# Product images
+images/
