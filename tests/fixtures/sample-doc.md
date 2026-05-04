@@ -47,4 +47,4 @@ Report incidents to support within 24 hours.
 | Temperature | -40 to +60 | °C |
 | Area | 100 | m^2^ |
 
-Threshold value: [TBD]. Deprecated value: ~~obsolete~~.
+Threshold value: [TBD] (placeholder). Deprecated value: ~~obsolete~~.
