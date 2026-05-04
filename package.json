@@ -11,7 +11,7 @@
     "validate:doc": "node templates/validator.js",
     "xref": "node templates/xref-index.js",
     "version": "node templates/version-manager.js",
-    "test": "node --test tests/**/*.test.js"
+    "test": "node --test tests/smoke.test.js tests/filter.test.js tests/validators.test.js"
   },
   "keywords": [],
   "author": "",

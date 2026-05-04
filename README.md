@@ -166,7 +166,7 @@ Tests use Node's built-in `node:test` runner — no additional dependencies. Cov
 - **Filter** — Pandoc-conditional. Walks the post-filter JSON AST and asserts that the OpenXML emitted for the seven fenced-div classes (`danger`, `warning`, `caution`, `notice`, `note`, `tip`, `important`) includes each corresponding signal word (DANGER, WARNING, …), and that `[TBD]` markers are wrapped in a `Strong` node.
 - **Validators** — `templates/kb-validator.js` runs against checked-in fixtures (one valid, one missing a required section) to verify both the success and error paths.
 
-The test runner pattern `node --test tests/**/*.test.js` requires Node 21+ for native glob handling. The repo is otherwise compatible with Node 18+.
+Tests are listed explicitly in `package.json` so they run unchanged on Node 18+ across Linux, macOS, and Windows.
 
 ---
 

@@ -8,6 +8,10 @@ const KB_VALIDATOR = path.join(ROOT, 'templates', 'kb-validator.js');
 const FIXTURE_KB = path.join(ROOT, 'tests', 'fixtures', 'sample-kb.md');
 const FIXTURE_INVALID = path.join(ROOT, 'tests', 'fixtures', 'invalid-kb.md');
 
+// Note: templates/validator.js is intentionally not tested here. Its --product
+// flag hardcodes the lookup directory to knowledge-base/, which would require
+// either refactoring or test-time pollution. Out of scope for this hygiene pass.
+
 test('kb-validator.js exits 0 on the sample-kb fixture', () => {
   const result = spawnSync(
     process.execPath,
