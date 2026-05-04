@@ -63,6 +63,7 @@ function parseArgs() {
     version: 'B',
     toc: null,       // null = use defaults file setting
     numbers: null,   // null = use defaults file setting
+    dryRun: false,
     extra: []        // extra pandoc flags
   };
 
@@ -85,6 +86,9 @@ function parseArgs() {
         break;
       case '--no-numbers':
         opts.numbers = false;
+        break;
+      case '--dry-run':
+        opts.dryRun = true;
         break;
       case '--help': case '-h':
         printHelp();
@@ -117,6 +121,7 @@ Options:
   --no-toc        Force Table of Contents off
   --numbers       Force section numbering on
   --no-numbers    Force section numbering off
+  --dry-run       Validate input + reference template, print planned output, exit without invoking Pandoc
   --help, -h      Show this help
 
 Document Type Codes:
@@ -211,6 +216,15 @@ function main() {
     outputPath = path.join(inputDir, `${docId}.docx`);
   }
 
+  if (opts.dryRun) {
+    console.log(`[dry-run] Would generate: ${path.basename(outputPath)}`);
+    console.log(`  Input:    ${path.relative(ROOT, inputPath)}`);
+    console.log(`  Style:    Version ${opts.version}`);
+    console.log(`  Output:   ${path.relative(ROOT, outputPath)}`);
+    console.log(`  Pandoc:   (skipped)`);
+    return;
+  }
+
   // Build pandoc command
   const pandoc = findPandoc();
   const defaultsFile = path.join(PANDOC_DIR, `defaults-${opts.version}.yaml`);
@@ -237,6 +251,7 @@ function main() {
   }
 
   const cmd = cmdParts.join(' ');
+
   console.log(`Generating: ${path.basename(outputPath)}`);
   console.log(`  Input:    ${path.relative(ROOT, inputPath)}`);
   console.log(`  Style:    Version ${opts.version}`);
