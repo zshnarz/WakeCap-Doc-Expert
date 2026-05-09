@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="AETHER Communications · Concept Datasheet" />
+  <title>AETHER-Q1</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="datasheet.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AETHER-Q1</h1>
+<p class="subtitle">Quantum-Secured Hyperlink Communication Node</p>
+<p class="author">AETHER Communications · Concept Datasheet</p>
+</header>
+<blockquote>
+<h2 id="communication-beyond-the-horizon."><em>Communication beyond the
+horizon.</em></h2>
+<p>One node. Four spectra. Quantum-secured. Self-healing. Built for the
+places connectivity has never reached.</p>
+</blockquote>
+<hr />
+<h2 id="at-a-glance">At a Glance</h2>
+<dl>
+<dt>Throughput</dt>
+<dd>
+<strong>1.2 Tbps</strong> terahertz fronthaul · <strong>224
+Gbps</strong> LiFi · <strong>multi-orbit LEO</strong> uplink
+</dd>
+<dt>Security</dt>
+<dd>
+Hardware <strong>QKD co-processor</strong> · NIST <strong>post-quantum
+cryptography</strong> · per-flow attestation
+</dd>
+<dt>Latency</dt>
+<dd>
+<strong>&lt; 50 ms</strong> mesh self-heal · <strong>&lt; 8 ms</strong>
+inter-satellite handover · sub-millisecond air interface
+</dd>
+<dt>Reach</dt>
+<dd>
+Operates from <strong>-40 °C to +75 °C</strong> · IP68 · ATEX Zone 2
+option · MIL-STD-810H
+</dd>
+<dt>Intelligence</dt>
+<dd>
+<strong>256 TOPS</strong> edge AI · on-device 7B-parameter LLM ·
+digital-twin synchronised
+</dd>
+</dl>
+<hr />
+<h2 id="why-aether-q1">Why AETHER-Q1</h2>
+<p>The places that matter most — the deepest mines, the furthest
+platforms, the hardest disaster zones — are also the places radio
+struggles to reach. <strong>AETHER-Q1</strong> was engineered as an
+answer.</p>
+<p>It is not another radio. It is the <strong>convergence point</strong>
+of four communication worlds, fused into a single weather-sealed node
+and orchestrated by an on-board AI that learns the spectrum around it.
+Where one band fails, another takes over. Where the network is attacked,
+quantum keys keep the channel honest.</p>
+<div class="tip">
+<p><strong>One node replaces a tower of compromise.</strong> Operators
+who deploy AETHER-Q1 retire — on average — a base station, a satellite
+VSAT, a Wi-Fi backhaul, a SCADA radio, and a key-management appliance.
+<em>(Target reference architecture, Q1 2029.)</em></p>
+</div>
+<hr />
+<h2 id="four-worlds-one-node">Four Worlds, One Node</h2>
+<h3 id="terahertz-fronthaul">Terahertz Fronthaul</h3>
+<p>The 0.30–0.45 THz band carries more data in a single beam than an
+entire 5G cell. AETHER-Q1 uses <strong>holographic beamforming</strong>
+assisted by intelligent reconfigurable surfaces, so the beam doesn’t
+just point — it bends around obstacles. Target throughput: <strong>1.2
+Tbps</strong>, line-of-sight, 100 m.</p>
+<h3 id="non-terrestrial-uplink">Non-Terrestrial Uplink</h3>
+<p>A flat, electronically-steered phased array tracks
+<strong>multi-orbit LEO constellations</strong> across Ku, Ka, and V
+bands. No moving parts. No alignment drift. Inter-satellite handover
+<strong>under 8 ms</strong> — fast enough for closed-loop industrial
+control from anywhere on the planet.</p>
+<h3 id="optical-wireless-lifi-2.0">Optical Wireless (LiFi 2.0)</h3>
+<p>In hospitals, refineries, and secure facilities where RF is
+restricted, <strong>light becomes the medium</strong>. Visible-light and
+850 nm IR backup deliver up to <strong>224 Gbps</strong> in a single
+emitter footprint — silent on the spectrum analyser, invisible to anyone
+outside the room.</p>
+<h3 id="self-healing-mesh">Self-Healing Mesh</h3>
+<p>Below the headline numbers, a <strong>sub-6 GHz mesh</strong> quietly
+knits together up to 4,096 nodes per cluster. AI-orchestrated routing
+reroutes around failure in <strong>under 50 ms</strong> — fast enough
+that a robot arm never notices the path it’s using has just changed.</p>
+<hr />
+<h2 id="quantum-security-out-of-the-box">Quantum Security, Out of the
+Box</h2>
+<div class="important">
+<p>Tomorrow’s adversary harvests today’s traffic. AETHER-Q1 is built for
+the day quantum computers break the ciphers we trust now.</p>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Layer</th>
+<th style="text-align: left;">Mechanism</th>
+<th style="text-align: left;">Standard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Key exchange</td>
+<td style="text-align: left;">QKD co-processor (BB84 / E91)</td>
+<td style="text-align: left;">ETSI TS 103 744</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Symmetric crypto</td>
+<td style="text-align: left;">ML-KEM-1024</td>
+<td style="text-align: left;">NIST FIPS 203</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Signatures</td>
+<td style="text-align: left;">ML-DSA-87</td>
+<td style="text-align: left;">NIST FIPS 204</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Root of trust</td>
+<td style="text-align: left;">Tamper-reactive HSM</td>
+<td style="text-align: left;">FIPS 140-3 Level 4 <em>(target)</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Refresh rate</td>
+<td style="text-align: left;">1 kHz key rotation</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Architecture</td>
+<td style="text-align: left;">Zero-trust, per-flow attestation</td>
+<td style="text-align: left;">NIST SP 800-207</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="performance">Performance</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: right;">Value</th>
+<th style="text-align: center;">Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">THz aggregate downlink</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: center;">Tbps</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">LiFi single-emitter</td>
+<td style="text-align: right;">224</td>
+<td style="text-align: center;">Gbps</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mesh nodes per cluster</td>
+<td style="text-align: right;">4,096</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mesh convergence (failure)</td>
+<td style="text-align: right;">&lt; 50</td>
+<td style="text-align: center;">ms</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">LEO inter-sat handover</td>
+<td style="text-align: right;">&lt; 8</td>
+<td style="text-align: center;">ms</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Edge AI compute</td>
+<td style="text-align: right;">256</td>
+<td style="text-align: center;">TOPS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Edge AI compute (FP16)</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: center;">TFLOPS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Concurrent flows</td>
+<td style="text-align: right;">1 M+</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="form-function">Form &amp; Function</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Dimensions</td>
+<td style="text-align: left;">1,200 × 400 × 400 mm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weight</td>
+<td style="text-align: left;">28 kg (BASE) · 34 kg (EX)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mounting</td>
+<td style="text-align: left;">pole · mast · wall · vehicle roof</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Power input</td>
+<td style="text-align: left;">24–60 V DC / 100–240 V AC</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Power draw</td>
+<td style="text-align: left;">180 W typical · 420 W peak</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Operating temp</td>
+<td style="text-align: left;">-40 °C to +75 °C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Storage temp</td>
+<td style="text-align: left;">-55 °C to +85 °C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ingress protection</td>
+<td style="text-align: left;">IP68 / NEMA 4X</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shock / vibration</td>
+<td style="text-align: left;">MIL-STD-810H</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Altitude</td>
+<td style="text-align: left;">up to 5,000 m</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EMI/EMC</td>
+<td style="text-align: left;">MIL-STD-461G · EN 55032 Class A</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hazardous area</td>
+<td style="text-align: left;">ATEX Zone 2 / Class I Div 2 <em>(EX
+variant)</em></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="interfaces">Interfaces</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Port</th>
+<th style="text-align: center;">Count</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">QSFP-DD (400 GbE optical)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Fronthaul / data plane</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RJ45 10 GbE PoE++</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">90 W per port output</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">USB-C 4</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Service &amp; local console</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M12 X-coded</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Industrial Ethernet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CAN-FD</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Vehicular variant only</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SMA (GNSS / 1 PPS)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">External time reference</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Holographic ID</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">NFC + optical pairing</td>
+</tr>
+</tbody>
+</table>
+<div class="note">
+<p>A single hybrid fibre-and-power cable supports runs up to 1 km from
+the network edge — no separate copper, no roadside cabinets.</p>
+</div>
+<hr />
+<h2 id="built-for-the-frontier">Built for the Frontier</h2>
+<p><strong>Mega-construction.</strong> A Tbps backbone for autonomous
+earthmovers, drone surveys, and AR-guided crews — across sites measured
+in square kilometres.</p>
+<p><strong>Offshore energy.</strong> Quantum-secure SCADA back to shore,
+over LEO, with no exposed control plane on the public RF spectrum.</p>
+<p><strong>Mines &amp; tunnels.</strong> Where radio dies, light keeps
+working. LiFi 2.0 carries traffic through galleries that have never seen
+a network bar.</p>
+<p><strong>Disaster response.</strong> Drop the node. Ninety seconds
+later, the mesh is alive. Rescue teams have a usable network before the
+dust settles.</p>
+<p><strong>Defence &amp; contested theatres.</strong>
+Low-probability-of-intercept terahertz hops, anti-jam mesh routing, and
+one-time-pad-class key rotation — purpose-built for environments where
+the spectrum is the battlefield.</p>
+<p><strong>Smart ports.</strong> Deterministic networking from gantry to
+gate. AGVs, cranes, and customs systems on a single fabric, secured to a
+single root of trust.</p>
+<hr />
+<h2 id="configurations">Configurations</h2>
+<table>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Built for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>AETHER-Q1-BASE</strong></td>
+<td style="text-align: left;">Standard industrial deployment</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>AETHER-Q1-EX</strong></td>
+<td style="text-align: left;">ATEX Zone 2 / IECEx hazardous area</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>AETHER-Q1-MIL</strong></td>
+<td style="text-align: left;">MIL-STD ruggedization, anti-jam firmware,
+classified-key option</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>AETHER-Q1-MED</strong></td>
+<td style="text-align: left;">Healthcare — EMI-quiet,
+LiFi-emphasised</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>AETHER-Q1-VEH</strong></td>
+<td style="text-align: left;">Vehicular roof-mount, CAN-FD bus, mobile
+mesh</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="standards-targeted">Standards Targeted</h2>
+<p>3GPP Release 21+ · ITU-R IMT-2030 · ETSI TS 103 744 (QKD) · IEC
+62443-4-2 · ISO 27001 · SOC 2 Type II · ANSI/ISA-95 · FCC Part 15 · ETSI
+EN 300 328</p>
+<hr />
+<h2 id="roadmap">Roadmap</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" /><strong>2027</strong> —
+Engineering samples to lighthouse customers</label></li>
+<li><label><input type="checkbox" /><strong>2028</strong> — Field
+trials: oil &amp; gas · mining · smart ports</label></li>
+<li><label><input type="checkbox" /><strong>2029</strong> — General
+availability · 1.0 THz extension module</label></li>
+<li><label><input type="checkbox" /><strong>2030</strong> —
+Quantum-repeater integration for metro-scale entanglement</label></li>
+</ul>
+<hr />
+<h2 id="reserve-the-future">Reserve the Future</h2>
+<blockquote>
+<p>AETHER-Q1 will not be sold by the rack-unit. It will be sold by the
+mission. Tell us yours.</p>
+</blockquote>
+<p><strong>Engineering enquiries</strong> · engineering@aether.example
+<strong>Reservation programme</strong> · reserve@aether.example
+<strong>Press &amp; analysts</strong> · press@aether.example</p>
+<hr />
+<div class="note">
+<p><strong>Concept document.</strong> AETHER-Q1 is a forward-looking
+product concept aligned with publicly announced ITU-R IMT-2030 (6G)
+targets and current research in terahertz, LiFi, QKD, and post-quantum
+cryptography. Specifications are target performance for the indicated
+launch windows and may evolve. Items marked <em>(target)</em> are
+subject to certification at GA. Document AQ1-DS-v1.0 · 2026-05-09.</p>
+</div>
+</body>
+</html>
